@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions - UENR Eco-Tourist</title>
+    <meta name="description" content="Explore the bat sanctuary, eco-educational walks, and conservation research at UENR">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <img src="images/UENR logo.png" alt="UENR Logo" class="logo-img">
+                <span>UENR Eco-Tourist</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="attractions.html" class="nav-link active">Attractions</a></li>
+                    <li><a href="visit-planning.html" class="nav-link">Visit Planning</a></li>
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="news.html" class="nav-link">News</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="attractions-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Discover Our Natural Wonders</h1>
+                    <p class="hero-subtitle">Experience the unique biodiversity and conservation efforts at UENR's eco-tourism destination</p>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-bat"></i>
+                            <span class="stat-number">10,000+</span>
+                            <span class="stat-label">Fruit Bats</span>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-tree"></i>
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Tree Species</span>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-clock"></i>
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Activity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Attractions -->
+        <section class="featured-attractions">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Attractions</h2>
+                    <p>Explore the highlights of our eco-tourism experience</p>
+                </div>
+                
+                <div class="attractions-grid">
+                    <div class="attraction-card featured">
+                        <div class="card-image">
+                            <img src="images/bat.jpeg" alt="Bat Sanctuary">
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Bat Sanctuary</h3>
+                                    <p>Home to thousands of fruit bats</p>
+                                    <a href="#sanctuary" class="overlay-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-bat"></i>
+                            </div>
+                            <h3>Bat Sanctuary</h3>
+                            <p>Our crown jewel featuring thousands of fruit bats in their natural habitat</p>
+                            <ul class="card-features">
+                                <li><i class="fas fa-check"></i> Guided tours available</li>
+                                <li><i class="fas fa-check"></i> Educational programs</li>
+                                <li><i class="fas fa-check"></i> Conservation research</li>
+                                <li><i class="fas fa-check"></i> Best viewing at dawn/dusk</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="attraction-card">
+                        <div class="card-image">
+                            <img src="images/eco tour.jpg" alt="Eco-Educational Walks">
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Eco-Educational Walks</h3>
+                                    <p>Guided nature trails</p>
+                                    <a href="#walks" class="overlay-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-hiking"></i>
+                            </div>
+                            <h3>Eco-Educational Walks</h3>
+                            <p>Guided tours through green spaces and native forest patches</p>
+                            <ul class="card-features">
+                                <li><i class="fas fa-check"></i> Expert naturalist guides</li>
+                                <li><i class="fas fa-check"></i> Educational interpretation</li>
+                                <li><i class="fas fa-check"></i> Wildlife spotting opportunities</li>
+                                <li><i class="fas fa-check"></i> Plant identification</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="attraction-card">
+                        <div class="card-image">
+                            <img src="images/research.jpg" alt="Conservation Research">
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Conservation Research</h3>
+                                    <p>Ongoing research projects</p>
+                                    <a href="#research" class="overlay-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <h3>Conservation Research</h3>
+                            <p>Learn about ongoing research and conservation efforts</p>
+                            <ul class="card-features">
+                                <li><i class="fas fa-check"></i> Research presentations</li>
+                                <li><i class="fas fa-check"></i> Student project displays</li>
+                                <li><i class="fas fa-check"></i> Interactive exhibits</li>
+                                <li><i class="fas fa-check"></i> Conservation workshops</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bat Sanctuary Section -->
+        <section id="sanctuary" class="sanctuary-section">
+            <div class="container">
+                <div class="section-content">
+                    <div class="content-text">
+                        <h2>The UENR Bat Sanctuary</h2>
+                        <p class="lead">Our magnificent bat sanctuary spans 5 hectares of protected forest, home to thousands of fruit bats (Eidolon helvum) that have made our campus their permanent residence.</p>
+                        
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Best Viewing Times</h4>
+                                    <p>Dawn (5:30-7:00 AM) and Dusk (6:00-7:30 PM)</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h4>Guided Tours</h4>
+                                    <p>Expert guides available in English and local languages</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-leaf"></i>
+                                <div>
+                                    <h4>Ecosystem Role</h4>
+                                    <p>Essential pollinators and seed dispersers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <img src="images/nice bat.jpg" alt="Bat Sanctuary">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Gallery -->
+        <section class="interactive-gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Explore Our Sanctuary</h2>
+                    <p>Discover the different aspects of our eco-tourism experience</p>
+                </div>
+                
+                <div class="gallery-tabs">
+                    <div class="tab-nav">
+                        <button class="tab-btn active" data-tab="species">Bat Species</button>
+                        <button class="tab-btn" data-tab="ecology">Ecology</button>
+                        <button class="tab-btn" data-tab="nearby">Nearby Spots</button>
+                        <button class="tab-btn" data-tab="activities">Activities</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-panel active" id="species">
+                            <div class="panel-content">
+                                <div class="panel-text">
+                                    <h3>Eidolon helvum - Straw-colored Fruit Bat</h3>
+                                    <p>One of the largest fruit bats in Africa with wingspans up to 1 meter. These magnificent creatures are essential pollinators and seed dispersers.</p>
+                                    <div class="specs-grid">
+                                        <div class="spec-item">
+                                            <span class="spec-label">Wingspan</span>
+                                            <span class="spec-value">75-100 cm</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Weight</span>
+                                            <span class="spec-value">230-350 grams</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Lifespan</span>
+                                            <span class="spec-value">Up to 20 years</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Color</span>
+                                            <span class="spec-value">Straw to golden brown</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-images">
+                                    <img src="images/bat friend.jpg" alt="Bat Friend">
+                                    <img src="images/captured.jpg" alt="Captured Bat">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" id="ecology">
+                            <div class="panel-content">
+                                <div class="panel-text">
+                                    <h3>Ecosystem Role</h3>
+                                    <p>Fruit bats are often called "gardeners of the forest" for their crucial role in maintaining forest health through pollination and seed dispersal.</p>
+                                    <div class="ecology-features">
+                                        <div class="feature-item">
+                                            <i class="fas fa-seedling"></i>
+                                            <h4>Pollination Services</h4>
+                                            <p>Pollinate over 300 plant species</p>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-leaf"></i>
+                                            <h4>Seed Dispersal</h4>
+                                            <p>Disperse seeds across large distances</p>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-tree"></i>
+                                            <h4>Forest Regeneration</h4>
+                                            <p>Essential for forest conservation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-images">
+                                    <img src="images/native plant.jpg" alt="Native Plants">
+                                    <img src="images/conservation.jpg" alt="Conservation">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" id="nearby">
+                            <div class="panel-content">
+                                <div class="panel-text">
+                                    <h3>Nature Trails & Observation Points</h3>
+                                    <p>Explore our network of nature trails and observation points that offer opportunities to observe wildlife and learn about diverse plant species.</p>
+                                    <div class="spots-grid">
+                                        <div class="spot-item">
+                                            <i class="fas fa-walking"></i>
+                                            <h4>Canopy Walk</h4>
+                                            <p>Elevated walkway for bird watching</p>
+                                        </div>
+                                        <div class="spot-item">
+                                            <i class="fas fa-eye"></i>
+                                            <h4>Forest Clearing</h4>
+                                            <p>Open area for wildlife observation</p>
+                                        </div>
+                                        <div class="spot-item">
+                                            <i class="fas fa-water"></i>
+                                            <h4>Stream Side</h4>
+                                            <p>Water source for various animals</p>
+                                        </div>
+                                        <div class="spot-item">
+                                            <i class="fas fa-flask"></i>
+                                            <h4>Research Station</h4>
+                                            <p>Learn about ongoing studies</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-images">
+                                    <img src="images/eco tour.jpg" alt="Nature Trails">
+                                    <img src="images/green uenr.jpg" alt="Observation Points">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" id="activities">
+                            <div class="panel-content">
+                                <div class="panel-text">
+                                    <h3>Educational Activities</h3>
+                                    <p>Engage in various educational activities designed to enhance your understanding of conservation and biodiversity.</p>
+                                    <div class="activities-grid">
+                                        <div class="activity-item">
+                                            <i class="fas fa-graduation-cap"></i>
+                                            <h4>Educational Programs</h4>
+                                            <p>Structured learning experiences</p>
+                                        </div>
+                                        <div class="activity-item">
+                                            <i class="fas fa-camera"></i>
+                                            <h4>Photography Tours</h4>
+                                            <p>Capture nature's beauty</p>
+                                        </div>
+                                        <div class="activity-item">
+                                            <i class="fas fa-users"></i>
+                                            <h4>Group Tours</h4>
+                                            <p>Guided group experiences</p>
+                                        </div>
+                                        <div class="activity-item">
+                                            <i class="fas fa-microscope"></i>
+                                            <h4>Research Tours</h4>
+                                            <p>Behind-the-scenes research</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-images">
+                                    <img src="images/educational programs.jpg" alt="Educational Programs">
+                                    <img src="images/tourism.jpg" alt="Tourism Activities">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="attractions-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Experience Nature?</h2>
+                    <p>Plan your visit to UENR's eco-tourism destination and discover the wonders of our bat sanctuary</p>
+                    <div class="cta-buttons">
+                        <a href="visit-planning.html" class="btn btn-primary">Plan Your Visit</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/UENR logo.png" alt="UENR Logo" class="logo-img">
+                        <span>UENR Eco-Tourist</span>
+                    </div>
+                    <p>Discover the natural wonders of UENR's bat sanctuary and eco-tourism destination</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="visit-planning.html">Visit Planning</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="visit-planning.html">Book a Tour</a></li>
+                        <li><a href="education.html">Educational Programs</a></li>
+                        <li><a href="gallery.html">Photo Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>&copy; 2024 UENR Eco-Tourist. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <script>
+        // Tab functionality for attractions page
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabPanels = document.querySelectorAll('.tab-panel');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetTab = btn.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and panels
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabPanels.forEach(p => p.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding panel
+                btn.classList.add('active');
+                document.getElementById(targetTab).classList.add('active');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
