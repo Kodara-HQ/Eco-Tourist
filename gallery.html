@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - UENR Eco-Tourist</title>
+    <meta name="description" content="Explore stunning images of our bat sanctuary, wildlife, and conservation activities">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="gallery-page">
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <img src="images/UENR logo.png" alt="UENR Logo" class="logo-img">
+                <span>UENR Eco-Tourist</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="attractions.html" class="nav-link">Attractions</a></li>
+                    <li><a href="visit-planning.html" class="nav-link">Visit Planning</a></li>
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li><a href="news.html" class="nav-link">News</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header section">
+            <div class="container">
+                <h1 class="section-title">Photo Gallery</h1>
+                <p class="section-subtitle">Explore stunning images of our sanctuary and wildlife</p>
+            </div>
+        </section>
+
+        <!-- Gallery Categories -->
+        <section class="gallery-categories section">
+            <div class="container">
+                <div class="category-filters">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="bats">Bat Sanctuary</button>
+                    <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+                    <button class="filter-btn" data-filter="landscape">Landscape</button>
+                    <button class="filter-btn" data-filter="activities">Activities</button>
+                    <button class="filter-btn" data-filter="research">Research</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="gallery-grid-section gallery-section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <!-- Bat Sanctuary Images -->
+
+                    
+                    <div class="gallery-item" data-category="bats">
+                        <img src="images/bats in the sky.jpeg" alt="Bats in the Sky" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Bats in the Sky</h3>
+                            <p>Bats flying during dawn or dusk</p>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="gallery-item" data-category="bats">
+                        <img src="images/new bat.jpg" alt="New Bat" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>New Bat</h3>
+                            <p>Another stunning bat image</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="bats">
+                        <img src="images/bat friend.jpg" alt="Bat Friend" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Bat Friend</h3>
+                            <p>Friendly bat interaction</p>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="gallery-item" data-category="bats">
+                        <img src="images/fly bat.jpg" alt="Flying Bat" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Flying Bat</h3>
+                            <p>Bat in flight</p>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    <div class="gallery-item" data-category="landscape">
+                        <img src="images/uenr campus.jpeg" alt="UENR Campus" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>UENR Campus</h3>
+                            <p>Beautiful view of the university campus</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="landscape">
+                        <img src="images/campus 2.jpeg" alt="Campus View" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Campus View</h3>
+                            <p>Panoramic view of UENR campus</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="landscape">
+                        <img src="images/Hostel.jpg" alt="UENR Hostel" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>UENR Hostel</h3>
+                            <p>Student accommodation on campus</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Activities Images -->
+                    <div class="gallery-item" data-category="activities">
+                        <img src="images/eco tour.jpg" alt="Eco Tour" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Eco Tour</h3>
+                            <p>Visitors on guided eco-tours</p>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    <!-- Additional Landscape Images -->
+                    <div class="gallery-item" data-category="landscape">
+                        <img src="images/uenr satelite.jpg" alt="UENR Satellite View" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>UENR Satellite View</h3>
+                            <p>Aerial view of the university campus</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="landscape">
+                        <img src="images/planting trees.jpeg" alt="Tree Planting" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Tree Planting</h3>
+                            <p>Environmental restoration activities</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional Activities Images -->
+                    <div class="gallery-item" data-category="activities">
+                        <img src="images/conservation workshop.jpg" alt="Conservation Workshop" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Conservation Workshop</h3>
+                            <p>Community conservation workshops</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional Research Images -->
+                    <div class="gallery-item" data-category="research">
+                        <img src="images/student research project published.jpg" alt="Student Research" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Student Research</h3>
+                            <p>Student research projects published</p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 360° Virtual Tour -->
+        <section class="virtual-tour gallery-section">
+            <div class="container">
+                <h2 class="section-title">360° Virtual Tour</h2>
+                <p class="section-subtitle">Experience our sanctuary from anywhere in the world</p>
+                
+                <div class="virtual-tour-container">
+                    <div class="tour-placeholder">
+                        <i class="fas fa-vr-cardboard"></i>
+                        <h3>Interactive 360° Tour</h3>
+                        <p>Explore our bat sanctuary through an immersive virtual experience</p>
+                        <button class="btn btn-primary">Start Virtual Tour</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section gallery-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Share Your Experience</h2>
+                    <p>Have photos from your visit? Share them with us and they might appear in our gallery!</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Share Photos</a>
+                        <a href="visit-planning.html" class="btn btn-secondary">Plan Your Visit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>UENR Eco-Tourist</span>
+                    </div>
+                    <p>Where Conservation Meets Curiosity</p>
+                    <p>Explore the unique bat sanctuary at University of Energy and Natural Resources in Sunyani, Ghana.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="visit-planning.html">Visit Planning</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="attractions.html">Guided Tours</a></li>
+                        <li><a href="education.html">Education Programs</a></li>
+                        <li><a href="education.html">Research Opportunities</a></li>
+                        <li><a href="about.html">Conservation Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
+                        <li><a href="contact.html">FAQ</a></li>
+                        <li><a href="contact.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>&copy; 2024 UENR Eco-Tourist. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+            <button class="lightbox-nav lightbox-prev">&lt;</button>
+            <button class="lightbox-nav lightbox-next">&gt;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Gallery filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.dataset.filter;
+                
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxTitle = document.getElementById('lightbox-title');
+        const lightboxDescription = document.getElementById('lightbox-description');
+        const lightboxClose = document.querySelector('.lightbox-close');
+        const lightboxPrev = document.querySelector('.lightbox-prev');
+        const lightboxNext = document.querySelector('.lightbox-next');
+        
+        let currentImageIndex = 0;
+        let visibleImages = [];
+
+        // Gallery item click for lightbox
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                const img = item.querySelector('.gallery-img');
+                const title = item.querySelector('.gallery-overlay h3').textContent;
+                const description = item.querySelector('.gallery-overlay p').textContent;
+                
+                // Update visible images array based on current filter
+                updateVisibleImages();
+                currentImageIndex = visibleImages.indexOf(index);
+                
+                openLightbox(img.src, title, description);
+            });
+        });
+
+        function updateVisibleImages() {
+            visibleImages = [];
+            galleryItems.forEach((item, index) => {
+                if (item.style.display !== 'none') {
+                    visibleImages.push(index);
+                }
+            });
+        }
+
+        function openLightbox(src, title, description) {
+            lightboxImg.src = src;
+            lightboxTitle.textContent = title;
+            lightboxDescription.textContent = description;
+            lightbox.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        function showPrevImage() {
+            if (visibleImages.length > 1) {
+                currentImageIndex = (currentImageIndex - 1 + visibleImages.length) % visibleImages.length;
+                const item = galleryItems[visibleImages[currentImageIndex]];
+                const img = item.querySelector('.gallery-img');
+                const title = item.querySelector('.gallery-overlay h3').textContent;
+                const description = item.querySelector('.gallery-overlay p').textContent;
+                openLightbox(img.src, title, description);
+            }
+        }
+
+        function showNextImage() {
+            if (visibleImages.length > 1) {
+                currentImageIndex = (currentImageIndex + 1) % visibleImages.length;
+                const item = galleryItems[visibleImages[currentImageIndex]];
+                const img = item.querySelector('.gallery-img');
+                const title = item.querySelector('.gallery-overlay h3').textContent;
+                const description = item.querySelector('.gallery-overlay p').textContent;
+                openLightbox(img.src, title, description);
+            }
+        }
+
+        // Event listeners for lightbox controls
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxPrev.addEventListener('click', showPrevImage);
+        lightboxNext.addEventListener('click', showNextImage);
+
+        // Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (lightbox.style.display === 'flex') {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                } else if (e.key === 'ArrowLeft') {
+                    showPrevImage();
+                } else if (e.key === 'ArrowRight') {
+                    showNextImage();
+                }
+            }
+        });
+
+        // Virtual Tour functionality
+        const virtualTourBtn = document.querySelector('.virtual-tour .btn-primary');
+        const virtualTourModal = document.getElementById('virtual-tour-modal');
+        const virtualTourClose = document.querySelector('.virtual-tour-close');
+        const prevLocationBtn = document.getElementById('prev-location');
+        const nextLocationBtn = document.getElementById('next-location');
+        const locationName = document.getElementById('location-name');
+
+        // Tour locations
+        const tourLocations = [
+            { name: 'Bat Colony Area', description: 'Main bat roosting area' },
+            { name: 'Research Laboratory', description: 'Scientific research facilities' },
+            { name: 'Educational Center', description: 'Learning and visitor center' },
+            { name: 'Conservation Zone', description: 'Protected natural habitat' },
+            { name: 'Observation Deck', description: 'Best viewing points' }
+        ];
+
+        let currentLocationIndex = 0;
+
+        // Open virtual tour
+        virtualTourBtn.addEventListener('click', () => {
+            virtualTourModal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+            updateLocationDisplay();
+        });
+
+        // Close virtual tour
+        function closeVirtualTour() {
+            virtualTourModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        virtualTourClose.addEventListener('click', closeVirtualTour);
+
+        // Navigate tour locations
+        prevLocationBtn.addEventListener('click', () => {
+            currentLocationIndex = (currentLocationIndex - 1 + tourLocations.length) % tourLocations.length;
+            updateLocationDisplay();
+        });
+
+        nextLocationBtn.addEventListener('click', () => {
+            currentLocationIndex = (currentLocationIndex + 1) % tourLocations.length;
+            updateLocationDisplay();
+        });
+
+        function updateLocationDisplay() {
+            const location = tourLocations[currentLocationIndex];
+            locationName.textContent = location.name;
+        }
+
+        // Close modal when clicking outside
+        virtualTourModal.addEventListener('click', (e) => {
+            if (e.target === virtualTourModal) {
+                closeVirtualTour();
+            }
+        });
+
+        // Keyboard navigation for virtual tour
+        document.addEventListener('keydown', (e) => {
+            if (virtualTourModal.style.display === 'flex') {
+                if (e.key === 'Escape') {
+                    closeVirtualTour();
+                } else if (e.key === 'ArrowLeft') {
+                    prevLocationBtn.click();
+                } else if (e.key === 'ArrowRight') {
+                    nextLocationBtn.click();
+                }
+            }
+        });
+    </script>
+
+    <!-- Virtual Tour Modal -->
+    <div id="virtual-tour-modal" class="virtual-tour-modal">
+        <div class="virtual-tour-content">
+            <span class="virtual-tour-close">&times;</span>
+            <div class="virtual-tour-header">
+                <h2>UENR Bat Sanctuary Virtual Tour</h2>
+                <p>Explore our sanctuary in 360°</p>
+            </div>
+            <div class="virtual-tour-viewer">
+                <div class="tour-controls">
+                    <button class="tour-nav-btn" id="prev-location">&lt;</button>
+                    <span class="location-indicator" id="location-name">Bat Colony Area</span>
+                    <button class="tour-nav-btn" id="next-location">&gt;</button>
+                </div>
+                <div class="tour-viewport">
+                    <div class="tour-placeholder-content">
+                        <i class="fas fa-vr-cardboard tour-icon"></i>
+                        <h3>Virtual Tour Coming Soon</h3>
+                        <p>We're working on an immersive 360° virtual tour of our bat sanctuary. This will allow you to:</p>
+                        <ul class="tour-features">
+                            <li><i class="fas fa-check"></i> Explore the bat colony areas</li>
+                            <li><i class="fas fa-check"></i> Visit research facilities</li>
+                            <li><i class="fas fa-check"></i> Walk through educational zones</li>
+                            <li><i class="fas fa-check"></i> Experience the natural habitat</li>
+                        </ul>
+                        <div class="tour-actions">
+                            <button class="btn btn-primary" onclick="window.open('https://uenr.edu.gh', '_blank')">Visit UENR Website</button>
+                            <button class="btn btn-secondary" onclick="closeVirtualTour()">Close Tour</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
