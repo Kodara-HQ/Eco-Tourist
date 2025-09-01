@@ -1,0 +1,160 @@
+[1mdiff --git a/attractions.html b/attractions.html[m
+[1mindex 2b8d6ea..7259dca 100644[m
+[1m--- a/attractions.html[m
+[1m+++ b/attractions.html[m
+[36m@@ -134,7 +134,35 @@[m
+                         </div>[m
+                     </div>[m
+ [m
+[32m+[m[32m<<<<<<< HEAD[m
+ [m
+[32m+[m[32m=======[m
+[32m+[m[32m                    <div class="attraction-card">[m
+[32m+[m[32m                        <div class="card-image">[m
+[32m+[m[32m                            <img src="images/research.jpg" alt="Conservation Research">[m
+[32m+[m[32m                            <div class="card-overlay">[m
+[32m+[m[32m                                <div class="overlay-content">[m
+[32m+[m[32m                                    <h3>Conservation Research</h3>[m
+[32m+[m[32m                                    <p>Ongoing research projects</p>[m
+[32m+[m[32m                                    <a href="#research" class="overlay-btn">Learn More</a>[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                        <div class="card-content">[m
+[32m+[m[32m                            <div class="card-icon">[m
+[32m+[m[32m                                <i class="fas fa-microscope"></i>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <h3>Conservation Research</h3>[m
+[32m+[m[32m                            <p>Learn about ongoing research and conservation efforts</p>[m
+[32m+[m[32m                            <ul class="card-features">[m
+[32m+[m[32m                                <li><i class="fas fa-check"></i> Research presentations</li>[m
+[32m+[m[32m                                <li><i class="fas fa-check"></i> Student project displays</li>[m
+[32m+[m[32m                                <li><i class="fas fa-check"></i> Interactive exhibits</li>[m
+[32m+[m[32m                                <li><i class="fas fa-check"></i> Conservation workshops</li>[m
+[32m+[m[32m                            </ul>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+                 </div>[m
+             </div>[m
+         </section>[m
+[36m@@ -221,7 +249,11 @@[m
+                                 </div>[m
+                                 <div class="panel-images">[m
+                                     <img src="images/bat friend.jpg" alt="Bat Friend">[m
+[32m+[m[32m<<<<<<< HEAD[m
+                                    [m
+[32m+[m[32m=======[m
+[32m+[m[32m                                    <img src="images/captured.jpg" alt="Captured Bat">[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+                                 </div>[m
+                             </div>[m
+                         </div>[m
+[36m@@ -249,7 +281,14 @@[m
+                                         </div>[m
+                                     </div>[m
+                                 </div>[m
+[32m+[m[32m<<<<<<< HEAD[m
+ [m
+[32m+[m[32m=======[m
+[32m+[m[32m                                <div class="panel-images">[m
+[32m+[m[32m                                    <img src="images/native plant.jpg" alt="Native Plants">[m
+[32m+[m[32m                                    <img src="images/conservation.jpg" alt="Conservation">[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+                             </div>[m
+                         </div>[m
+                         [m
+[36m@@ -281,7 +320,14 @@[m
+                                         </div>[m
+                                     </div>[m
+                                 </div>[m
+[32m+[m[32m<<<<<<< HEAD[m
+ [m
+[32m+[m[32m=======[m
+[32m+[m[32m                                <div class="panel-images">[m
+[32m+[m[32m                                    <img src="images/eco tour.jpg" alt="Nature Trails">[m
+[32m+[m[32m                                    <img src="images/green uenr.jpg" alt="Observation Points">[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+                             </div>[m
+                         </div>[m
+                         [m
+[36m@@ -313,7 +359,14 @@[m
+                                         </div>[m
+                                     </div>[m
+                                 </div>[m
+[32m+[m[32m<<<<<<< HEAD[m
+ [m
+[32m+[m[32m=======[m
+[32m+[m[32m                                <div class="panel-images">[m
+[32m+[m[32m                                    <img src="images/educational programs.jpg" alt="Educational Programs">[m
+[32m+[m[32m                                    <img src="images/tourism.jpg" alt="Tourism Activities">[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+                             </div>[m
+                         </div>[m
+                     </div>[m
+[1mdiff --git a/education.html b/education.html[m
+[1mindex 76bd8c7..2312682 100644[m
+[1m--- a/education.html[m
+[1m+++ b/education.html[m
+[36m@@ -69,7 +69,13 @@[m
+                         </div>[m
+                     </div>[m
+                 </div>[m
+[32m+[m[32m<<<<<<< HEAD[m
+ [m
+[32m+[m[32m=======[m
+[32m+[m[32m                <div class="education-image">[m
+[32m+[m[32m                    <img src="images/educational programs.jpg" alt="Student Research Activities" class="education-img">[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+             </div>[m
+         </div>[m
+     </section>[m
+[1mdiff --git a/gallery.html b/gallery.html[m
+[1mindex 426ffe9..b48384e 100644[m
+[1m--- a/gallery.html[m
+[1m+++ b/gallery.html[m
+[36m@@ -73,7 +73,17 @@[m
+             <div class="container">[m
+                 <div class="gallery-grid">[m
+                     <!-- Bat Sanctuary Images -->[m
+[32m+[m[32m<<<<<<< HEAD[m
+ [m
+[32m+[m[32m=======[m
+[32m+[m[32m                    <div class="gallery-item" data-category="bats">[m
+[32m+[m[32m                        <img src="images/bat.jpeg" alt="Bat Colony Roosting" class="gallery-img">[m
+[32m+[m[32m                        <div class="gallery-overlay">[m
+[32m+[m[32m                            <h3>Bat Colony Roosting</h3>[m
+[32m+[m[32m                            <p>Thousands of fruit bats hanging in the trees</p>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+                     [m
+                     <div class="gallery-item" data-category="bats">[m
+                         <img src="images/bats in the sky.jpeg" alt="Bats in the Sky" class="gallery-img">[m
+[36m@@ -83,7 +93,17 @@[m
+                         </div>[m
+                     </div>[m
+                     [m
+[32m+[m[32m<<<<<<< HEAD[m
+ [m
+[32m+[m[32m=======[m
+[32m+[m[32m                    <div class="gallery-item" data-category="bats">[m
+[32m+[m[32m                        <img src="images/nice bat.jpg" alt="Nice Bat" class="gallery-img">[m
+[32m+[m[32m                        <div class="gallery-overlay">[m
+[32m+[m[32m                            <h3>Nice Bat</h3>[m
+[32m+[m[32m                            <p>Beautiful close-up of a fruit bat</p>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m>>>>>>> 8158a55d64f4f4af6d807fa85b8fb656e2a4dba7[m
+                     [m
+                     <div class="gallery-item" data-category="bats">[m
+                         <img src="images/new bat.jpg" alt="New Bat" class="gallery-img">[m
+[36m@@ -101,7 +121,17 @@[m
+                         </div>[m
+                     </div>[m
+                     [m
+[32m+[m[32m<
